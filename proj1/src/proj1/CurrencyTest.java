@@ -24,7 +24,7 @@ public class CurrencyTest {
 		System.out.println(dollar + " to won : " + won + " won");
 		
 		// int(dollar * rate) -- dollar 와 rate 값을 int로
-		won = (int)(dollar * rate);
+		won = (int)(dollar * rate); // type cast 연산자보다 "()" 연산자가 우선 순위가 높다.
 		System.out.println(dollar + " to won : " + won + " won");
 	}
 
